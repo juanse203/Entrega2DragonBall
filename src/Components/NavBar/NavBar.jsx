@@ -4,7 +4,7 @@ import './NavBar.css'
 
 const NavBar = () => {
   return (
-    <nav class= "Escroto">
+    <nav className="Escroto">
         <ul>            
             <Link to={"/"} className='item'>Inicio</Link>
             <Link to={"/filter/Male"} className='item'>Masculino</Link>            
