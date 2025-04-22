@@ -17,7 +17,8 @@ const Acercade = () => {
       tiktok: "https://www.tiktok.com/@juanserojas203?_t=ZS-8v4JjklJ3dy&_r=1",
       grupo: "6",
       curso: "Programación Web",
-      image: juanimg
+      image: juanimg,
+      github: "https://github.com/juanse203"
     },
     {
       nombre: "Jorge Luis Kuaran Silva",
@@ -30,7 +31,8 @@ const Acercade = () => {
       tiktok: "",
       grupo: "",
       curso: "Programación Web",
-      image: jorgeimg
+      image: jorgeimg,
+      github: "https://github.com/Sleepy4-esp"
     }
   ];
 
@@ -44,7 +46,9 @@ const Acercade = () => {
           <Grid item xs={12} md={8} key={idx}>
             <Card className="acerca-card">
               <CardContent className="acerca-content">
-                <Avatar src={info.image} alt={info.nombre} className="acerca-avatar" />
+                <Link href={info.github} target="_blank" rel="noopener noreferrer">
+                  <Avatar src={info.image} alt={info.nombre} className="acerca-avatar" />
+                </Link>
                 <Box className="acerca-info">
                   <Typography variant="h5" className="acerca-nombre">{info.nombre}</Typography>
                   <Typography><strong>Cédula:</strong> <span className="acerca-dato">{displayField(info.id)}</span></Typography>

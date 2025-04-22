@@ -12,10 +12,10 @@ body {
 main {
   display: flex;
   flex-wrap: wrap;
+  gap: 6rem;
   justify-content: center;
   padding: 50px;
   background-image: url("https://www.clarin.com/img/2023/10/24/c5WBR10Pd_360x240__1.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
 }
 

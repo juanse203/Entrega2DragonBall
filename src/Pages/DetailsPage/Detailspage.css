@@ -14,12 +14,12 @@
 }
 
 .carousel {
-  position: relative;
-  flex: 1 1 100%;
-  max-width: 400px;
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
+  flex: 1 1 100%;
+  max-width: 400px;
   border-radius: 1.5rem;
   backdrop-filter: blur(8px);
   box-shadow: 0 0 20px rgba(255, 202, 40, 0.2);
