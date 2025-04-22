@@ -1,5 +1,6 @@
 .acerca-container {
-    height: 70vh;
+    height: 70%;
+    width: 100%;
     padding: 2rem;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJpoQbO0sY378v-XFFfrvVt2twnWAcWZgNMQ&s");
     background-size: cover;
