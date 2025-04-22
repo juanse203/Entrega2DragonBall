@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom'
-import './DetailsPage.css'
+import './Detailspage.css'
 
 const DetailsPage = () => {
   const [character, setCharacter] = useState(null);
